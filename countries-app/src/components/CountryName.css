@@ -1,0 +1,22 @@
+.country-name{
+    width: 100%;
+
+    padding: 0.3rem;
+    margin: 0.1rem;
+    background-color: white;
+  border: 2px solid rgb(207, 233, 192);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+    height: 30px;
+
+}
+.mini-flag{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+    margin: 5px;
+}

@@ -1,0 +1,18 @@
+.containr-menu{
+    width: 100%;
+    display: flex;
+     color: black;
+    /* justify-content: flex-end; */
+    background-color: rgb(207, 233, 192);
+    padding:1%;
+}
+.link{
+    text-decoration: none;
+    /* color: black; */
+    margin:0 1rem;
+}
+@media (max-width:576px){
+    .containr-menu{
+        flex-direction: column;
+    }
+}
