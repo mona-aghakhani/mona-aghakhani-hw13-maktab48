@@ -5,7 +5,7 @@ import {ThemeContext} from "../context/ThemeContext"
      let theme=useContext(ThemeContext)
     return (
         <div style={{background:theme.background2,color:theme.foreground}} onClick={()=>{onClick(country)}} className="country-name">
-           <div>{country.name.substr(0,15)}</div> 
+           <div>{country.name.substr(0,30)}</div> 
             <img className="mini-flag" src={country.flag}/>
         </div>
     )

@@ -85,7 +85,7 @@ const [weather, setWeather] = useState(null)
         </div>
         
       </header>
-      <PageTemplate>
+      <PageTemplate onClick={showInfo} data={countries}>
         <div className="row-country" style={{background: theme.background}} >
           {/* <h4>List of countries</h4> */}
           {countries.map((obj, item) => {

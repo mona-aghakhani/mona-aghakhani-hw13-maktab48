@@ -6,7 +6,7 @@ import "./PageTemplate.css"
     return (
         <div className="page-template">
             
-<Menu/>
+<Menu onClick={props.onClick} data={props.data}/>
 {/* <div className="children"> */}
 {props.children}
 {/* </div> */}
